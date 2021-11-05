@@ -1,0 +1,59 @@
+body{
+    overflow-x: hidden;
+    background: 
+    linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+#container{
+    display: flex;
+    margin-top: 12.5%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    height: 300vh;  
+}
+#menu{
+    position: sticky;
+    z-index: 10000;
+    top: 0;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#logo{
+    
+    letter-spacing: 2px;
+    margin-left: 30px;
+    width: 30px;
+    height: auto;
+
+}
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a#active{
+    background-color: #0092CA;
+}
